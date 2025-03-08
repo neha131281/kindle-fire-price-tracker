@@ -130,7 +130,7 @@ Notification method set to: email
 4. **Run the application**
    mvn spring-boot:run
 5. **Access the application**
-   open your browser and go to: http://localhost:8080/check
+   open your browser and go to: http://localhost:8080/api/prices/check
    
 ### Challenges Faced and Solutions
 1. Web Scraping Limitations
