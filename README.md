@@ -72,7 +72,6 @@ Returns the current threshold value.
 Sets a new price drop threshold. The threshold is the amount or percentage by which the price must drop to trigger a notification.
 
 **Request Body:**  
-```json
 {
   "threshold": 10.0
 }
@@ -102,7 +101,6 @@ Returns the current notification method.
 Sets the notification method (email, SMS, or web).
 
 **Request Body:**  
-```json
 {
   "method": "email"
 }
@@ -124,16 +122,12 @@ Notification method set to: email
 
 1. **Clone this repository**  
    Open a terminal or command prompt and run:  
-   ```bash
    git clone https://github.com/neha131281/kindle-fire-price-tracker.git
 2. **Navigate to the project directory**
-   ```bash
    cd price-tracker
 3. **Build the project using Maven**
-   ```bash
    mvn clean install
 4. **Run the application**
-   ```bash
    mvn spring-boot:run
 5. **Access the application**
    open your browser and go to: http://localhost:8080/check
